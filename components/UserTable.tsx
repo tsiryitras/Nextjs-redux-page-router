@@ -33,7 +33,9 @@ export default function UserTable() {
                 <td>{user.email}</td>
                 <td>{user.address.street}</td>
                 <td>
-                  <button>Action 1</button>
+                  <a href={`/user/${user.id}`} className="btn-primary">
+                    Voir
+                  </a>
                 </td>
               </tr>
             ))}

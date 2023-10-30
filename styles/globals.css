@@ -189,3 +189,27 @@
 .table tr:hover {
   background-color: #cee9ff;
 }
+
+.card {
+  background: #f5f4f4;
+  width: 400px;
+  height: 250px;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card-header {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 10px;
+  gap: 20px;
+}
